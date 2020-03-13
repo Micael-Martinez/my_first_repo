@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Muli', sans-serif;
+    margin: 0px;
+    background-color: #8F57FD;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #8F57FD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    
+}
+.header__menu {
+    margin-right: 40px;
+    
+}
+
+.header__menu ul {
+    display: none;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    list-style: none;
+    top: 55px;
+    right: 20px;
+    
+}
+
+.header__menu:hover ul, ul:hover {
+    display: block;
+}
+
+.header__menu li {
+    margin: 10px 0px;
+    
+}
+
+.header__menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu li a:hover {
+    text-decoration: underline;
+}
+.header__menu--profile {
+    margin-right: 8px;
+    width: 40px;
+    font-size: 35px;
+}
+
+.header__menu--profile span {
+    font-size: 40px;
+    padding: 20px;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
+.main {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__title {
+    font-size: 35px;
+    color:white;
+    margin: auto;
+    font-family: humbolt;
+    
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: auto;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 0px 20px;
+    height: 50px;
+    outline: none;
+}
+::placeholder {
+    color: white;
+}
